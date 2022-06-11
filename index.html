@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <title>JS Class 16 Practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-dark">
+    <div class="header-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-2 col-sm-6"></div>
+                <div class="col-lg-4 col-md-8 col-sm-6">
+                    <div class="card">
+                        <div class=" card-header">
+                            <h3 class="text-center my-2">Light On Off System</h3>
+                            <hr>
+                            <div class="on_off my-3 d-flex justify-content-center">
+                                <button id="light_on" class="btn btn-primary mx-2">Light on</button>
+                                <button id="light_off" class="btn btn-danger mx-2">Light off</button>
+                            </div>
+                        </div>
+                        <div class="card-body light_body">
+                            <div class="light_image d-flex flex-wrap justify-content-center align-items-center">
+                                <img id="on_image" src="./img/Off_image.png" alt="">
+                                <img id="off_image" src="./img/On_image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h3 id="light_details" class=" text-center">Wow</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-2 col-sm-6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="hotel_info_section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-2 col-sm-6"></div>
+                <div class="col-lg-4 col-md-8 col-sm-6">
+                    <div class="card">
+                        <div class=" card-header">
+                            <h3 class="text-center">Hotel Menu</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="start_menu">
+                                <form action="" id="hotel_menu">
+                                    <div class="my-2">
+                                        <label class="my-1" for="">Name</label>
+                                        <input class="form-control" id="customer_name" type="text" placeholder="Type your name..." name="" id="">
+                                    </div>
+                                    <div class="my-2">
+                                        <label class="my-1" for="">Your food list</label><br>
+                                        <hr>
+                                        <input type="checkbox" name="food_name" price="300" id="" value="Hiji Biriany"> Hiji Biriany <br>
+                                        <input type="checkbox" name="food_name" price="500" id="" value="Pizza"> Pizza <br>
+                                        <input type="checkbox" name="food_name" price="100" id="" value="Burger"> Burger <br>
+                                        <input type="checkbox" name="food_name" price="600" id="" value="Sandwise"> Sandwise <br>
+                                        <input type="checkbox" name="food_name" price="50" id="" value="Coffy"> Coffy <br>
+                                        <input type="checkbox" name="food_name" price="100" id="" value="Ice-cream"> Ice-cream <br>
+                                        <input type="checkbox" name="food_name" price="150" id="" value="Derry-milk"> Derry-milk <br>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="take_food">
+                                <h5 id="output_details" class="text-center">When you will take any food, <br> then here you will show your list...</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-2 col-sm-6"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
